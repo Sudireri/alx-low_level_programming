@@ -3,20 +3,19 @@
 /**
  * _memset - function that fills memory with a constant byte
  * @s: parameter
- * @b: parameter
- * @n: parameter
+ * @b: parameter representing character to copy
+ * @n: parameter of number of times to copy
  *
  * Return: changed array
  */
 
 char *_memset(char *s, char b, unsigned int n)
 {
-	int i;
+	unsigned int i;
 
-	for (i = 0; i > 0; i++)
+	for (i = 0; i < n; i++)
 	{
 		s[i] = b;
-		n--;
 	}
 	return (s);
 }
