@@ -8,7 +8,6 @@
  * @n: the number of integers passed to the function
  * @...: ellipsis parameter
  *
- * Return: 0
  */
 
 void print_numbers(const char *separator, const unsigned int n, ...)
