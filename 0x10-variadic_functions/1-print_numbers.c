@@ -3,11 +3,12 @@
 #include <stdarg.h>
 
 /**
- * void print_numbers - function that prints numbers, followed by a new line
+ * print_numbers - function that prints numbers, followed by a new line
  * @separator: the string to be printed between numbers
  * @n: the number of integers passed to the function
  * @...: ellipsis parameter
  *
+ * Description: If separator is NULL, don’t print it
  */
 
 void print_numbers(const char *separator, const unsigned int n, ...)
